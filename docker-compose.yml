@@ -6,7 +6,7 @@ services:
     container_name: grafana
     image: grafana/grafana
     ports:
-      - '3000:3000'
+      - '3500:3000'
     volumes:
       - grafana_data:/var/lib/grafana
     user: '0'
@@ -36,4 +36,4 @@ services:
       - '--web.console.templates=/etc/prometheus/consoles'
       - '--web.enable-lifecycle'
     ports:
-            - 9090:9090
+      - 9090:9090
