@@ -1,4 +1,4 @@
-# Graphana Prometheus
+# Grafana Prometheus
 -------------------------------------------------------------------------------
 
-COMPOSE FILE TO DEPLOY GRAPHANA AND PROMETHEUS
+COMPOSE FILE TO DEPLOY GRAFANA AND PROMETHEUS
